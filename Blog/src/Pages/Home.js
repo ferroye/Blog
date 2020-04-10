@@ -1,9 +1,10 @@
 import React from 'react'
+import { TopMenu } from '../Component/Top/topMenu'
 
 const Home = () => {
     return (
         <div>
-            This is the Home Page
+            <TopMenu />
         </div>
     )
 }
