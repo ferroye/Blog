@@ -5,7 +5,6 @@ import thunk from "redux-thunk";
 import { Provider } from 'react-redux';
 import { Router, Route, Switch } from 'react-router'
 import combineReduer from './Component/Reducers/combineReducer'
-import App from './Component/App';
 import { createBrowserHistory } from "history";
 import { compose } from "redux";
 import { RouteConfig } from './Config/Route'
@@ -23,7 +22,6 @@ const store = createStore(
 const renderRoute = () => {
   return RouteConfig.map(item =>
     <Route key path={item.path} exact component={item.component} />
-    // console.log(item.component)
   );
 }
 
