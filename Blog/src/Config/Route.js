@@ -10,7 +10,7 @@ import React from 'react';
 export const RouteConfig = [
     {
         path: '/',//path
-        component: App // component
+        component: Home // component
     },
     {
         path: '/home',//path
@@ -30,6 +30,11 @@ export const RouteConfig = [
     {
         path: '/newSubscriber',//path
         name: 'NewSubscriber',
+        component: NewSubscriber // component
+    },
+    {
+        path: '/donate',//path
+        name: 'Donate',
         component: NewSubscriber // component
     }
 ]
