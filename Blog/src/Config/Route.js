@@ -3,8 +3,6 @@ import About from '../Pages/About';
 import Home from '../Pages/Home'
 import News from '../Pages/Blogs'
 import NewSubscriber from '../Pages/NewSubscriber'
-import App from '../Component/App'
-import React from 'react';
 
 
 export const RouteConfig = [

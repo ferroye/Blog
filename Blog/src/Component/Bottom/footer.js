@@ -11,11 +11,11 @@ export const Footer = () => {
                     © 2020 Copyright
                 </div>
                 <div className="col-sm-1 text-center">
-                    <a href="https://github.com/ferroye" target="_blank" className="fa fa-github"></a>
+                    <a href="https://github.com/ferroye" target="_blank" className="fa fa-github" rel="noopener noreferrer">GitHub</a>
 
                 </div>
                 <div className="col-sm-1 text-center">
-                    <a href="https://www.linkedin.com/in/ye-wang-457189129/" className="fa fa-linkedin" target="_blank"></a>
+                    <a href="https://www.linkedin.com/in/ye-wang-457189129/" className="fa fa-linkedin" target="_blank" rel="noopener noreferrer">linkedIn</a>
                 </div>
             </div>
 
